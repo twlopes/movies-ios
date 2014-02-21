@@ -1,0 +1,5 @@
+MOVRootViewController {
+    UIView {
+        backgroundColor red
+    }
+}

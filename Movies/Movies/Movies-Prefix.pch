@@ -1,0 +1,27 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    // Libraries
+    #import "Classy.h"
+    #import "Masonry.h"
+
+    // Constants
+    #import "MOVConstants.h"
+    #import "MOVEnvironmentConfig.h"
+
+    // Categories
+    #import "UIView+ClassyLayoutProperties.h"
+#endif
